@@ -13,7 +13,7 @@ namespace MedicalCenterApplication.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201902161905317_SeedUsers"; }
+            get { return "201902171605570_SeedUsers"; }
         }
         
         string IMigrationMetadata.Source

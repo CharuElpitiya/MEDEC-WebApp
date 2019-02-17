@@ -11,7 +11,7 @@ namespace MedicalCenterApplication.Controllers.Api
     [RoutePrefix("api/Orders")]
     public class OrdersController : ApiController
     {
-        [Authorize(Roles = RoleTypes.Administrator +","+ RoleTypes.Patient)]
+        [Authorize(Roles = RoleTypes.Administrator+","+RoleTypes.Pharmacist)]
         [Route("")]
         public IHttpActionResult Get()
         {
